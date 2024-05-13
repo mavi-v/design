@@ -1,0 +1,45 @@
+
+
+/* ------------------------
+	Layout 
+ ------------------------ */
+
+
+div#wrap {
+	background-color:#fff; /* white*/
+	border-top:2px solid black;
+	width: 900px;
+	margin: 20px auto;
+	position:relative;
+	}
+
+div#main {
+	width: 600px;
+	background-color: #fffee6; /*light yellow*/
+	padding:50px;
+	margin-right:200px;
+	}
+
+
+
+
+div#sidebar {
+	position:absolute;
+	/*left:0;*/
+	right:0;
+	top:0;
+	padding:20px;
+	width:160px;
+	/*margin-left:700px;*/
+	background-color: #e6feff; /*light blue*/
+	}
+
+div#third {
+	position:absolute;
+	top:0px;
+	width:600px;
+	height:310px;
+	padding:50px;
+	background-color:#c9ffa9; /* green */
+	/*z-index: -1;*/
+	}
