@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#header{
+	float: left;
+	width: 860px;
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+	background-color: #81B622;
+}
+
+#h-text{
+	text-align: center;
+	padding: 12px;
+}
+
+nav{
+	text-align: center;
+}
+
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+ 	background-color: #B0BF1A;
+  	margin: 7px 2px 3px;
+  	padding: 9px 10px;
+  	width: 130px;
+}
+
+.nav-links ul li a{
+	color: #fff; 
+	text-decoration: none;
+}
