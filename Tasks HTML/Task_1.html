@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> Sunny Tab</title>
+    <link rel="icon" type="image/png" href="sun.png" />
+    
+<style type="text/css"> 
+body { background-color: #DBF3FA;}
+
+h3.imp{bold;color: red; margin-left: 60px;}
+
+h1#title {color: pink}
+
+a:link {font-family: "Lucida"; color: #555; font-size: 12px;}
+a:hover{font-size: 16px; color: #A865C9; font-weight: bold;}
+
+a:img {height 50px; width: 50px;}
+
+</style>   
+</head>
+
+<body>
+<h1 id="title" >Tasks for Practice</h1>
+
+<ul>
+<ol>
+1. What are the obligatory elements in each (X)HTML document?</ol>
+<ul><p> 
+A (X)HTML &lt;!DOCTYPE HTML&gt; declaration, &lt;html&gt;, &lt;head&gt;, &lt;title&gt; 
+and &lt;body&gt; also should be present. </p></ul>
+<ol>
+2. What's DOCTYPE declaration meant for?
+</ol>
+<ul><p>Is an instruction that tells the web browser about the markup language in which the 
+current page is written. </p></ul>
+<ol>
+3. What is an URL? Give examples both of use of absolute and relative URLs
+</ol>
+<ul><p>A link is a relation between a source and a destination resource. Example: </p></ul>
+<ul><p>Absolute URL: <a href="https://www.lab.fi/en" >LAB Website </a></p></ul>
+<ul><p>Relative URL: <a href=sun.png >Picture </a></p></ul>
+<ol>
+4. How is it possible to define the text visible on the top of a browsers
+window and/or on a tab? How about adding an
+icon next to the title? Give examples.
+</ol>
+<ul><p> Both are to be defined inside the &lt;head&gt; block, adding the &lt;title &gt; will give 
+the name to the tab and with a &lt;link&gt; for a favicon. </p></ul>
+<ol>
+5. How do block - level and inline level elements differ from each other? Give Examples
+</ol>
+<ul><p> Block level takes one whole line of space no matter who large it is that inside,
+and inline level takes online necessary space. </p></ul>
+<ul><p style="border: 1px solid black">Example Block level</p></ul>
+<ul><span style="border: 1px solid black">Example In-line </span></ul>
+<p></p>
+<ol>
+6. Find out a piece of Java code and make it appear on your web page the same way it
+appears in a text editor
+</ol>
+<ul><p><code><pre>
+var rows = prompt("How many rows for your multiplication table?");
+    var cols = prompt("How many columns for your multiplication table?");
+    if(rows == "" || rows == null)
+   		 rows = 10;
+    if(cols== "" || cols== null)
+   		 cols = 10;
+    createTable(rows, cols);
+  
+</code></pre></p></ul>
+<ol>7. There are three different ways of adding CSS styles on an (X)HTML page. How? 
+What are the benefits of each way?</ol>
+<p><ul> Inline style: style declarations can be associated with elements by using a style 
+attribute.  </p></ul>
+<p><ul> Embedded style sheet: is written inside the style element, which is inside
+the head element. It needs to have an attribute type which should have the value "text/css"
+</p></ul>
+<p><ul> External style sheet: is linked to the html file using the link element inside the 
+head element. This is easier to use when it comes down to making changes in the file. </p></ul>
+
+<ol>8. How to create a nested list looking more or less as follows: </ol>
+<li style= "margin-left: 60px;">Banana</li>
+<li style= "margin-left: 60px;">Apple</li>
+<ol style= "margin-left: 40px;">a) Pinja</ol>
+<ol style= "margin-left: 40px;">b) Samo</ol>
+<li style= "margin-left: 60px;">Orange</li>
+<p></p>
+<li style= "margin-left: 60px;"><img src= "ws.jpeg" height="50px" width="50px"/></li>
+<li style= "margin-left: 60px;"><img src= "k.jpg" height="50px" width="50px"/></li>
+<p></p>
+<ol>9. What are selectors in CSS? Give at least five examples of different kind of
+selectors (basic type selectors, class, id, and attribute selectors). Show them in
+use on your (X)HTML page.</ol>
+<h3 class= "imp">Important!!</h3>
+
+<ol>10.</ol>
+<ul><p><a href="https://www.lab.fi/en" >LAB Website </a></p></ul>
+<ul><p><a href="ws.jpeg" target="_blank"><img src= "ws.jpeg" height="150px" width="150px"/></p></ul>
+
+</ul>
+</body>
+</html>
